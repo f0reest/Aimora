@@ -1,0 +1,8 @@
+<Application x:Class="CrosshairApp.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" ShutdownMode="OnExplicitShutdown">
+ <Application.Resources><ResourceDictionary><ResourceDictionary.MergedDictionaries>
+  <ResourceDictionary Source="Themes/Theme.Optic.xaml"/>
+  <ResourceDictionary Source="Resources/Strings.id-ID.xaml"/>
+  <ResourceDictionary Source="Resources/Icons.xaml"/>
+  <ResourceDictionary Source="Controls/Templates.xaml"/>
+ </ResourceDictionary.MergedDictionaries></ResourceDictionary></Application.Resources>
+</Application>

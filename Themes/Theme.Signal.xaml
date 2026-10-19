@@ -1,0 +1,24 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+ <SolidColorBrush x:Key="CanvasBrush" Color="#0A0A0A"/><SolidColorBrush x:Key="PanelBrush" Color="#121212"/>
+ <SolidColorBrush x:Key="InputBrush" Color="#1A1A1A"/><SolidColorBrush x:Key="LineBrush" Color="#555555"/>
+ <SolidColorBrush x:Key="AccentBrush" Color="#B6FF3B"/><SolidColorBrush x:Key="TextBrush" Color="#F4F4F4"/>
+ <SolidColorBrush x:Key="SecondaryBrush" Color="#AAAAAA"/><SolidColorBrush x:Key="MutedBrush" Color="#B8B8B8"/>
+ <SolidColorBrush x:Key="AccentInkBrush" Color="#0A0A0A"/><SolidColorBrush x:Key="FocusBrush" Color="#F4F4F4"/>
+ <CornerRadius x:Key="ControlRadius">0</CornerRadius><Thickness x:Key="FocusThickness">2</Thickness>
+ <FontFamily x:Key="BodyFont">pack://application:,,,/Assets/Fonts/#IBM Plex Sans</FontFamily>
+ <FontFamily x:Key="LabelFont">pack://application:,,,/Assets/Fonts/#Barlow Condensed SemiBold</FontFamily>
+ <FontFamily x:Key="NumberFont">pack://application:,,,/Assets/Fonts/#JetBrains Mono</FontFamily>
+ <sys:Double x:Key="LabelSize">11</sys:Double><sys:Double x:Key="BodySize">12</sys:Double><sys:Double x:Key="HeadingSize">18</sys:Double>
+ <sys:Double x:Key="RailWidth">64</sys:Double><sys:Double x:Key="InspectorWidth">320</sys:Double>
+ <sys:Double x:Key="ControlHeight">32</sys:Double><sys:Double x:Key="TitleHeight">40</sys:Double><sys:Double x:Key="MotionMs">150</sys:Double>
+ <Thickness x:Key="SpaceXS">4</Thickness><Thickness x:Key="SpaceSM">8</Thickness><Thickness x:Key="SpaceMD">12</Thickness><Thickness x:Key="SpaceLG">16</Thickness><Thickness x:Key="SpaceXL">24</Thickness>
+ <Thickness x:Key="ControlPadding">10,6</Thickness><Thickness x:Key="LineThickness">1</Thickness>
+ <sys:Double x:Key="ShellWidth">1100</sys:Double><sys:Double x:Key="ShellHeight">700</sys:Double>
+ <sys:Double x:Key="HudWidth">280</sys:Double><sys:Double x:Key="HudHeight">160</sys:Double>
+ <sys:Double x:Key="IconSize">16</sys:Double><sys:Double x:Key="IconStroke">1.5</sys:Double>
+ <sys:Double x:Key="SliderStroke">2</sys:Double><sys:Double x:Key="LabelTracking">0.08</sys:Double>
+ <GridLength x:Key="RailColumn">64</GridLength><GridLength x:Key="InspectorColumn">320</GridLength><GridLength x:Key="TitleRow">40</GridLength>
+ <GridLength x:Key="StageToolbarRow">64</GridLength><GridLength x:Key="BackgroundToolbarRow">48</GridLength><GridLength x:Key="PresetStripRow">156</GridLength>
+</ResourceDictionary>
+
+
